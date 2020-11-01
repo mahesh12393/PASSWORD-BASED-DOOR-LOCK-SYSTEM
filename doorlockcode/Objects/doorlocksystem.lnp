@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\doorcode.obj" 
+TO ".\Objects\doorlocksystem" 
+PRINT(".\Listings\doorlocksystem.m51")
