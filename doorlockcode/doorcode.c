@@ -45,21 +45,21 @@ void main(){
     while(1){        
         r1=0;r2=1;r3=1;r4=1;        
         if(c1==0){            
-            password[x]='7';
+            password[x]='1';
             lcddat('*');  
 					  delay(200);
 					  lcdcmd(0x06);     //shift cursor to right        
             x++;
         }
         if(c2==0){
-            password[x]='8';
+            password[x]='2';
             lcddat('*');  
 					  delay(200);
 					  lcdcmd(0x06);     //shift cursor to right  
             x++;
         }
         if(c3==0){
-            password[x]='9';
+            password[x]='3';
             lcddat('*');  
 					  delay(200);
 					  lcdcmd(0x06);      //shift cursor to right      
@@ -89,21 +89,21 @@ void main(){
         }
         r1=1;r2=1;r3=0;r4=1;
         if(c1==0){
-            password[x]='1';
+            password[x]='7';
             lcddat('*');  
 					  delay(200);
 					  lcdcmd(0x06);       //shift cursor to right     
             x++;
         }
         if(c2==0){
-            password[x]='2';
+            password[x]='8';
             lcddat('*');  
 					  delay(200);
 					  lcdcmd(0x06);       //shift cursor to right     
             x++;
         }
         if(c3==0){
-            password[x]='3';
+            password[x]='9';
             lcddat('*');  
 					  delay(200);
 					  lcdcmd(0x06);      //shift cursor to right      
